@@ -1,0 +1,150 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #181A1B;
+}
+
+.active {
+    background-color: #f7931a;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181A1B;
+    display: flex;
+}
+
+.text {
+    margin-top: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#sources {
+    text-align: left;
+}
+
+h1 {
+    color: #f7931a;
+}
+
+h2 {
+    color: #f3a441;
+}
+
+p  {
+    font-size: 110%;
+    color: #D0CCC6;
+    text-align: justify;
+}
+
+#chart_div text {
+    fill: #D0CCC6 !important;
+}
+
+#chart_div {
+    width: 75%;
+    height: 65%;
+    text-align: center;
+    position: absolute;
+}
+
+#crash{
+	width: 30%;
+	height: auto;
+	float: right;
+	padding-left: 2%;
+}
+
+.left {
+    padding: 6px;
+    height: 30px;
+    float: left;
+}
+
+@media only screen and (max-width: 1100px) {
+    .text {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    ul li {float: none;}
+    .left {
+        height: 0;
+        width: 0;
+    }
+    .text {
+        margin-top: 230px;
+    }
+    #chart_div {
+        height: 55%;
+    }
+
+    .picright {
+	    width: 5%;
+        height: auto;
+	    float: right;
+	    padding-left: 2%;
+    }
+
+    #crash{
+    	width: 100%;
+    	height: auto;
+    	padding-left: 2%;
+        padding-bottom: 4%;
+    }
+
+    #bitcoin {
+        width: 10%;
+        height: auto;
+        
+    }
+}
+
+.picright {
+	width: 45%;
+    height: auto;
+	float: right;
+	padding-left: 2%;
+}
+
+#bitcoin {
+	width: 100%;
+	height: auto;
+	
+}
+#img {
+    float: right;
+    margin: 5px;
+    width: 20%;
+    height: auto;
+}
+
+#kurs {
+    padding-left: 15%;
+    padding-right: 15%;
+}
